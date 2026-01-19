@@ -90,12 +90,15 @@ nav {
   max-width: 350px;
   max-height: 350px;
 }
+
 .microphone-img {
   max-width: 116.67px;
   max-height: 175px;
   position: absolute;
   top: 16%;
+  animation: jahid 3s ease-in-out 0s infinite;
 }
+
 .tooltip {
   position: absolute;
   background-color: #00ff88;
@@ -143,5 +146,21 @@ nav {
   .microphone-img {
     max-width: 80px;
     max-height: 80px;
+  }
+}
+
+
+
+
+
+
+
+@keyframes jahid {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
   }
 }
