@@ -125,60 +125,90 @@ nav {
 
 /* About section design */
 
-.about-contain{
+.about-contain {
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-top: 50px;
-
 }
-.heading-section{
-   text-align: center;
+.heading-section {
+  text-align: center;
 }
-.break-line{
+.break-line {
   margin-top: 30px;
   font-size: 1rem;
 }
-.heading-section >p {
- line-height: 20px;
+.heading-section > p {
+  line-height: 20px;
   font-size: 1rem;
 }
-.heading-section >h1{
-  font-size:3rem ;
-  font-weight: bold;
-  margin-bottom: 16px;
-  
-}
-.rating{
-  display: grid;
- grid-template-columns: repeat(4, 1fr);
-  margin-top: 120px;
-  margin-bottom:120px;
-  padding-left:100px;
-}
-.rating h1{
+.heading-section > h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #00FF88;
+  margin-bottom: 16px;
+}
+.rating {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-left: 100px;
+}
+.rating h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00ff88;
 }
 
+/* Techwave container Area */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#techwave-section {
+  max-width: 1200px;
+  margin: 120px auto;
+}
+.headline {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.techwave-container > div {
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+  padding: 40px;
+}
+.techwave-container h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.techwave-container p {
+  line-height: 24px;
+  font-size: 1rem;
+}
+.audio-quality {
+  grid-area: audio-quality;
+}
+.Mobile-Friendly {
+  grid-area: Mobile-Friendly;
+}
+.Global-Community {
+  grid-area: Global-Community;
+}
+.Exclusive-Interviews {
+  grid-area: Exclusive-Interviews;
+}
+.Rich-Resources {
+  grid-area: Rich-Resources;
+}
+.techwave-container {
+  display: grid;
+  gap: 30px;
+  grid-template-areas:
+    "audio-quality    Mobile-Friendly   Mobile-Friendly  "
+    "audio-quality    Global-Community    Global-Community "
+    "Exclusive-Interviews   Exclusive-Interviews   Rich-Resources ";
+}
 
 @media screen and (max-width: 576px) {
   .nav-menu,
@@ -204,68 +234,25 @@ nav {
     max-width: 80px;
     max-height: 80px;
   }
-    .rating {
-      grid-template-columns: repeat(2, 1fr);
-      padding-left: 50px;
+  .rating {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 50px;
+  }
+  .heading-section > h1 {
+    font-size: 2rem;
+  }
+.techwave-container {
+grid-template-areas:
+    "audio-quality "
+    "Mobile-Friendly "
+    "Global-Community "
+    "Exclusive-Interviews "
+    "Rich-Resources ";
 }
-.heading-section>h1 {
+.headline {
   font-size: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
