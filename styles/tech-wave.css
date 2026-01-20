@@ -383,6 +383,9 @@ padding: 0px;
 background-size:cover;
 width: 100%;
 }
+.icon {
+justify-content: center;
+}
 }
 
 
