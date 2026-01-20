@@ -152,6 +152,7 @@ nav {
   margin-top: 120px;
   margin-bottom: 120px;
   padding-left: 100px;
+  cursor: pointer;
 }
 .rating h1 {
   font-size: 3rem;
@@ -175,6 +176,7 @@ nav {
   border-radius: 40px;
   background: rgba(53, 17, 101, 0.4);
   padding: 40px;
+  cursor: pointer;
 }
 .same-heading,.techwave-container h1 {
   font-size: 1.2rem;
@@ -269,6 +271,7 @@ nav {
 .icon{
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 
 /* Footer section */
@@ -292,6 +295,7 @@ padding-bottom: 120px;
   margin-top: 32px;
   margin-bottom:32px;
   justify-content: center;
+  cursor: pointer;
 }
 
 
