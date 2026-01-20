@@ -211,10 +211,10 @@ nav {
 }
 
 /* Episode design */
-#Episodes{
+#Episodes ,.footer-section{
   max-width: 1200px;
  margin: 12px auto;
- /* border: 1px solid red; */
+ 
 }
 .video-contain {
   display: grid;
@@ -253,6 +253,7 @@ nav {
   gap: 24px;
   border-radius: 16px;
   padding: 18px;
+  margin-bottom: 120px;
   
 }
 .icon >div{
@@ -269,6 +270,30 @@ nav {
   display: flex;
   gap: 8px;
 }
+
+/* Footer section */
+ .footer-section {
+   padding-top: 30px;
+  }
+
+#footer{
+background-image:url(../assets/footer-bg.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.footer-icon{
+  display: grid;
+ grid-auto-flow: column;
+  gap: 40px;
+  margin-top: 32px;
+  margin-bottom:32px;
+  justify-content: center;
+}
+
 
 
 
@@ -342,6 +367,18 @@ grid-template-areas:
   height: 150px;
 }
 
+.footer-icon {
+  display: grid;
+  grid-auto-flow:row ;
+  grid-template-columns: repeat(2, 100px);
+}
+#footer{
+  padding: 0px;
+  
+ align-items: center;
+ 
+}
+ 
 }
 
 
