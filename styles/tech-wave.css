@@ -176,13 +176,13 @@ nav {
   background: rgba(53, 17, 101, 0.4);
   padding: 40px;
 }
-.techwave-container h1 {
+.same-heading,.techwave-container h1 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 16px;
   margin-bottom: 16px;
 }
-.techwave-container p {
+.paragraph ,.techwave-container p {
   line-height: 24px;
   font-size: 1rem;
 }
@@ -209,6 +209,81 @@ nav {
     "audio-quality    Global-Community    Global-Community "
     "Exclusive-Interviews   Exclusive-Interviews   Rich-Resources ";
 }
+
+/* Episode design */
+#Episodes{
+  max-width: 1200px;
+ margin: 12px auto;
+ /* border: 1px solid red; */
+}
+.video-contain {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin-bottom: 120px;
+}
+.video-contain>div>iframe{
+  border-radius :16px 16px 0px 0px ;
+ 
+  }
+.video-contain>div {
+  background-color: #351165;
+  border-radius: 16px;
+
+}
+.padding{
+  padding-left: 20px;
+  padding-bottom: 10px;
+ 
+}
+.episode-heading{
+  margin-bottom: 40px;
+  font-size: 3rm;
+  font-weight: bold;
+  text-align: center;
+}
+.span{
+  color: #00ff88;
+}
+
+ /* Hosting Banner design */
+.hosting-banner{
+  background-color: #351165;
+  display: flex;
+  gap: 24px;
+  border-radius: 16px;
+  padding: 18px;
+  
+}
+.icon >div{
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.icon{
+  display: flex;
+  gap: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   .nav-menu,
@@ -252,6 +327,21 @@ grid-template-areas:
 .headline {
   font-size: 2rem;
 }
+.video-contain {
+  grid-template-columns: repeat(1, 1fr);
+  padding-left: 10px;
+} 
+.hosting-banner {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left-side img{
+  width: 150px;
+  height: 150px;
+}
+
 }
 
 
